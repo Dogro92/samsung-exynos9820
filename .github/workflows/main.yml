@@ -40,7 +40,9 @@ jobs:
                 +sdfat                   \
                 +ntfs                    \
                 +morosound               \
-                +boeffla_wl_blocker
+                +boeffla_wl_blocker .    \
+                +sched_...               \
+                +bfq    
     - name: Show information about build
       run: cat build.info
     - name: Kernel Build
